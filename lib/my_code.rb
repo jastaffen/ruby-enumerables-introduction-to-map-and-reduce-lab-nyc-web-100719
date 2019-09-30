@@ -5,7 +5,8 @@ def map_to_negativize(array)
 end
 
 def map_to_no_change(array)
-  new_arr = array.map
+  new_arr = []
+  array.map { |ele| new_arr << ele}
   new_arr
 end
 
