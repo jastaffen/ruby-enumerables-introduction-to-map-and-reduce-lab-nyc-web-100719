@@ -4,4 +4,7 @@ def map_to_negativize(array)
   new_arr
 end
 
-def map_to_no_change
+def map_to_no_change(array)
+  new_arr= array.map { |ele| }
+  new_arr
+end
