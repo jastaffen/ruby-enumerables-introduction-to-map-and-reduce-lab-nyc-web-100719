@@ -18,3 +18,9 @@ def map_to_square(array)
   new_arr = array.map { |ele| ele ** 2}
   new_arr
 end
+
+def reduce_to_total(array)
+  total = 0
+  array.reduce { |ele| total += ele}
+  total
+end
