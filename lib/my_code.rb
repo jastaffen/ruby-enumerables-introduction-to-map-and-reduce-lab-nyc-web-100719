@@ -20,6 +20,6 @@ def map_to_square(array)
   new_arr
 end
 
-def reduce_to_total(array, starting_point)
+def reduce_to_total(array, starting_point = 0)
   array.reduce(starting_point) { |sum, num| sum + num}
 end
