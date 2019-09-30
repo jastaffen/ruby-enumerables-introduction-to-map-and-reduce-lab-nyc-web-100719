@@ -21,6 +21,6 @@ end
 
 def reduce_to_total(array)
   total = 0
-  array.reduce { |ele| total += ele}
+  array.reduce(0) { |sum, num| sum + num}
   total
 end
