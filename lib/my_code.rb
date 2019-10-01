@@ -40,3 +40,4 @@ def reduce_to_any_true(array)
     end
   end
   return false
+end
