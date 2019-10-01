@@ -33,6 +33,4 @@ def reduce_to_all_true(array)
     i += 1
   end
   return true
-  end
-
 end
