@@ -28,6 +28,7 @@ def reduce_to_all_true(array)
   array.each do |ele|
     if !ele
       return false
-    else
-      return true
+    end
+  end
+  return true
 end
