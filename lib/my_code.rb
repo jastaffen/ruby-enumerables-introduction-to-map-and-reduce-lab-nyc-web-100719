@@ -28,9 +28,7 @@ def reduce_to_all_true(array)
   array.reduce(true) do |ele|
     if ele
       return true
-    else
-      return false
     end
   end
-  
+  return false
 end
