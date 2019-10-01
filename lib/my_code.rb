@@ -32,3 +32,11 @@ def reduce_to_all_true(array)
   end
   return true
 end
+
+def reduce_to_any_true(array)
+  array.each do |ele|
+    if ele
+      return true
+    end
+  end
+  return false
