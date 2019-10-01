@@ -25,5 +25,5 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  array.reduce(true) {|ele| true if ele}    
+  array.reduce(true) {|ele| ele ? true : false }    
 end
